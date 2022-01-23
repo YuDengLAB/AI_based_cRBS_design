@@ -8,7 +8,7 @@ model_path = "./model/seq_encoder_model/"
 data_path = "./data/"
 raw_data_path = data_path+"raw_data/"
 seq_dict = {'T': 0.25, 'C': 0.5, 'A': 0.75, 'G': 1}
-
+n_classes = 5
 #load encoder model
 encoder_model = load_model(model_path+"seq_encoder_model.h5")
 decoder_model = load_model(model_path+"seq_decoder_model.h5")
@@ -16,7 +16,7 @@ decoder_model = load_model(model_path+"seq_decoder_model.h5")
 #prepare set
 seq_value_list = []
 seq_label_list = []
-for i in range(5):
+for i in range(n_classes):
     cls = i+1
     seq_data = pd.read_csv(raw_data_path+'{cls}.txt'.format(cls=cls), header=None, names=['sequence'])
     seq_class_value_list = []
