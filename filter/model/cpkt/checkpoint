@@ -1,2 +1,0 @@
-model_checkpoint_path: "cls_weight"
-all_model_checkpoint_paths: "cls_weight"
