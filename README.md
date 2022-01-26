@@ -15,13 +15,13 @@
 
 ## Features:
 
-- WGAN-GP model to generate cRBS sequence data
+- [WGAN-GP model to generate cRBS sequence data](https://github.com/YuDengLAB/AI_based_cRBS_design/tree/main/WGAN_GP)
 
-- Convolutional neural network (CNN) model to predict the TFB output of the WGAN-GP generated cRBSs under ON and OFF state
+- [Convolutional neural network (CNN) model to predict the TFB output of the WGAN-GP generated cRBSs under ON and OFF state](https://github.com/YuDengLAB/AI_based_cRBS_design/tree/main/Predictive_models)
 
-- BAGAN_GP model to design novel cRBSs with desired TFB dynamic range
+- [BAGAN_GP model to design novel cRBSs with desired TFB dynamic range](https://github.com/YuDengLAB/AI_based_cRBS_design/tree/main/BAGAN_GP)
 
-- Filter model to reduce the prediction noise of BAGAN-GP model
+- [Filter model to reduce the prediction noise of BAGAN-GP model](https://github.com/YuDengLAB/AI_based_cRBS_design/tree/main/Filter_model)
 
 ## References
 
