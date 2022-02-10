@@ -1,6 +1,6 @@
 ## Introductions:
 
-**Establishing an AI-based Forward-Reverse engineering platform for rational designing cRBSs of transcription factor biosensor in _Escherichia coli_**
+**Establishing an AI-Based Forward-Reverse Engineering Platform for Rationally Designing RBSs of a Transcription Factor Biosensor in _Escherichia coli_**
 
 &ensp;&ensp;We report a novel AI-based forward-reverse engineering framework for *de novo* cRBS design with the selected TFB dynamic range in *E. coli*. The framework had a superior capacity to process the imbalanced minority-class datasets and could capture the correlation between the cRBS and dynamic range to mimic the design of cRBS with the selected TFB dynamic range based on the WGAN-GP and the BAGAN-GP models. From the experimental results of forward and reverse engineering, up to 86% and 97% of the AI-designed cRBSs were experimentally demonstrated to be functional, respectively. Here, we introduced the code used for cRBS sequences generation with desired TFB dynamic range
 
